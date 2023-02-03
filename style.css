@@ -52,142 +52,142 @@
   }
 
 /* Css dialog test1*/
-#openDialog {
-  background-color: green;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
+	#openDialog {
+	  background-color: green;
+	  color: white;
+	  padding: 10px 20px;
+	  border-radius: 5px;
+	}
 
-#openDialog:hover {
-  background-color: darkgreen;
-}
+	#openDialog:hover {
+	  background-color: darkgreen;
+	}
 
-#dialog1 {
-  display: none;
-}
+	#dialog1 {
+	  display: none;
+	}
 
-.dialog {
-  background-color: white;
-  border: 1px solid gray;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px gray;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  height: 80%;
-  overflow: auto;
-}
+	.dialog {
+	  background-color: white;
+	  border: 1px solid gray;
+	  border-radius: 10px;
+	  box-shadow: 2px 2px 10px gray;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  width: 80%;
+	  height: 80%;
+	  overflow: auto;
+	}
 
-#dialog2 {
-  background-color: lightgray;
-  border: 1px solid gray;
-  border-radius: 10px;
-  padding: 20px;
-  width: 50%;
-  height: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+	#dialog2 {
+	  background-color: lightgray;
+	  border: 1px solid gray;
+	  border-radius: 10px;
+	  padding: 20px;
+	  width: 50%;
+	  height: 50%;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
 
-#dialog2 h2 {
-  text-align: center;
-}
+	#dialog2 h2 {
+	  text-align: center;
+	}
 
-#closeDialog2 {
-  background-color: red;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-}
+	#closeDialog2 {
+	  background-color: red;
+	  color: white;
+	  padding: 10px 20px;
+	  border-radius: 5px;
+	  position: absolute;
+	  bottom: 20px;
+	  right: 20px;
+	}
 
-#closeDialog2:hover {
-  background-color: darkred;
-}
+	#closeDialog2:hover {
+	  background-color: darkred;
+	}
 
-/* Css dialog test2*/
-button#openDialogButton {
-  padding: 10px 20px;
-  background-color: blue;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
+	/* Css dialog test2*/
+	button#openDialogButton {
+	  padding: 10px 20px;
+	  background-color: blue;
+	  color: white;
+	  border: none;
+	  border-radius: 5px;
+	  cursor: pointer;
+	}
 
-.myDialog {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  border: 1px solid black;
-  box-shadow: 5px 5px 10px #888;
-  padding: 20px;
-  display: none;
-}
+	.myDialog {
+	  position: fixed;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  background-color: white;
+	  border: 1px solid black;
+	  box-shadow: 5px 5px 10px #888;
+	  padding: 20px;
+	  display: none;
+	}
 
-#myIframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
+	#myIframe {
+	  width: 100%;
+	  height: 100%;
+	  border: none;
+	}
 
-/* Css dialog test3*/
-button#openIframeButton {
-  background-color: red;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
+	/* Css dialog test3*/
+	button#openIframeButton {
+	  background-color: red;
+	  color: white;
+	  padding: 10px 20px;
+	  border-radius: 5px;
+	  border: none;
+	  cursor: pointer;
+	}
 
-iframe#iframe {
-  border: 1px solid gray;
-  height: 500px;
-  width: 600px;
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+	iframe#iframe {
+	  border: 1px solid gray;
+	  height: 500px;
+	  width: 600px;
+	  display: none;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
 
-div.dialogMy {
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0px 0px 10px gray;
-}
+	div.dialogMy {
+	  background-color: white;
+	  padding: 30px;
+	  border-radius: 10px;
+	  text-align: center;
+	  box-shadow: 0px 0px 10px gray;
+	}
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
+	h2 {
+	  font-size: 24px;
+	  margin-bottom: 20px;
+	}
 
-p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
+	p {
+	  font-size: 18px;
+	  margin-bottom: 20px;
+	}
 
-button#closeDialog3 {
-  background-color: gray;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  font-size: 18px;
-  cursor: pointer;
-  float: right;
-}
+	button#closeDialog3 {
+	  background-color: gray;
+	  color: white;
+	  padding: 10px 20px;
+	  border-radius: 5px;
+	  border: none;
+	  font-size: 18px;
+	  cursor: pointer;
+	  float: right;
+	}
 
 
