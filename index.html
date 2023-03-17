@@ -11,56 +11,34 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Code-Aqui debe poner el codigo que desea probar -->
-<button class="menu-button" aria-label="Abrir menú" aria-expanded="false">
-  <div class="hamburger"></div>
-  <span>Menú</span>
-</button>
-<div class="menu-container" hidden>
-  <nav>
-    <ul>
-      <li><a href="#">Enlace 1</a></li>
-      <li><a href="#">Enlace 2</a></li>
-      <li><a href="#">Enlace 3</a></li>
-    </ul>
-  </nav>
-</div>
-
-<!-- Code-dialog test1-->
-<button id="openDialog">Open dialog test1</button>
-<div id="dialog1" class="dialog" role="dialog" aria-modal="true" aria-label="Dialog 1">
-  <h2>Dialog 1</h2>
-  <iframe id="iframe" src="https://dequeuniversity.com">
-    <div id="dialog2" class="dialog" role="dialog" aria-modal="true" aria-label="Dialog 2">
-      <h2>Dialog 2</h2>
-      <p>Content dialog 2</p>
-      <button id="closeDialog2" tabindex="0">Close</button>
-    </div>    
-  </iframe>
-  <button id="closeDialog1">Close</button>
-</div>
-
-
-<!-- Code-dialog test2-->
-<button id="openDialogButton">Open dialog test2</button>
-<div id="myDialog" class="myDialog" role="dialog" aria-modal="true" aria-label="Diálogo">
-  <iframe id="myIframe" src=""></iframe>
-</div>
-
-<!-- Code-dialog test3-->
-<button id="openIframeButton">Open dialog test3</button>
-<iframe id="iframe" src="">
-  <div id="dialog3" class="dialogMy" role="dialog" aria-modal="true" aria-label="Diálogo 3">
-    <h2>Dialog 3</h2>
-    <p>Content dialog 3</p>
-    <button id="closeDialog3">Close</button>
+  <!-- Code-Aqui debe poner el codigo que desea probar -->
+  <div role="group">
+    <label for="group1" aria-hidden="false">Group 1</label>
+    <p>Control 1</p>
+    <div aria-live="off" class="visuallyHidden" id="l1">Texto</div>
+    <div>
+      <button id="group1-button1" aria-label="Descripción del botón">Botón 1</button>
+      <button id="group1-button2" aria-label="Descripción del botón">Botón 2</button>
+    </div>
   </div>
-</iframe>
-
-
-
-
-
+  <div role="group">
+    <label for="group2" aria-hidden="false">Group 2</label>
+    <p>Control 1</p>
+    <div aria-live="off" class="visuallyHidden" id="l2">Texto</div>
+    <div>
+      <button id="group2-button1" aria-label="Descripción del botón">Botón 3</button>
+      <button id="group2-button2" aria-label="Descripción del botón">Botón 4</button>
+    </div>
+  </div>
+  <div role="group">
+    <label for="group3" aria-hidden="false">Group 3</label>
+    <p>Control 1</p>
+    <div aria-live="off" class="visuallyHidden" id="l3">Texto</div>
+    <div>
+      <button id="group3-button1" aria-label="Descripción del botón">Botón 5</button>
+      <button id="group3-button2" aria-label="Descripción del botón">Botón 6</button>
+    </div>
+  </div>
 
 <!-- JS-Aqui esta el enlace a los stilos -->
 <script src="js.js"></script>
